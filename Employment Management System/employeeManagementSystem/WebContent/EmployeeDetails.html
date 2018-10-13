@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Employee Details</title>
+<style>
+table {
+	border-collapse: collapse;
+	text-align: center; 
+}
+
+td {
+	text-align: center;     
+	padding: 8px;
+}
+</style>
+</head>
+<body bgcolor="silver">
+	<form action="DataInsertionInDB" method="post">
+		
+			<table align="center">
+				<tr>
+                <td><h3>
+					<b>Enter the Employee data</b>
+                    </h3></td></tr>
+				<tr>
+					<td>Name * : </td>
+					<td><input type="text" name="name" required></td>
+				</tr>
+				<tr>
+					<td>Age * : </td>
+					<td><input type="text" name="age" required></td>
+				</tr>
+
+
+				<tr>
+					<td>Date Of Birth * : </td>
+					<td><input type="text" name="dob" required></td>
+				</tr>
+				<tr>
+					<td>Address :</td>
+					<td><input type="text" name="address"></td>
+				</tr>
+
+				<tr>
+					<td>Salary : </td>
+					<td><input type="text" name="salary"></td>
+				</tr>
+
+				<tr>
+					<td>Email * : </td>
+					<td><input type="text" name="email" required></td>
+				</tr>
+
+				<tr>
+					<td>Mobile Number * : </td>
+					<td><input type="text" name="mobilenumber" required></td>
+				</tr>
+
+				<tr>
+					<td></td>
+					<td>
+						<button type="submit">Submit</button>
+					</td>
+				</tr>
+			</table>
+		<h3>
+			<b>Note : </b>
+		</h3>
+		&ensp;&ensp; <b>*</b>Marked fields are to be filled compulsory
+	</form>
+
+	<form action="Report.html">
+        <center>
+		<input type="submit" value="Go to Report Page">
+	</center></form>
+
+</body>
+</html>
